@@ -1,0 +1,24 @@
+.dataTables_wrapper .dataTables_paginate{
+    border: none;
+    float: right;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    display: flex;
+    justify-content: center;
+    min-width: 40px;
+    min-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: 500;
+    margin: 2px;
+} 
+
+.dataTables_wrapper .dataTables_paginate .paginate_button a:hover{
+    transform: scale(1.1);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.active{
+    border:1px solid #413c69 !important;
+}
